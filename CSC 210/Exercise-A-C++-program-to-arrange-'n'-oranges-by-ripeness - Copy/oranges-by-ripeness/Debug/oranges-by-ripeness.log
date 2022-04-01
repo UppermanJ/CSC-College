@@ -1,5 +1,0 @@
-﻿  oranges-by-ripeness.cpp
-D:\CSC College\CSC 210\Exercise-A-C++-program-to-arrange-'n'-oranges-by-ripeness - Copy\oranges-by-ripeness\oranges-by-ripeness.cpp(4,10): fatal error C1083: Cannot open include file: 'oranges.h': No such file or directory
-  oranges.cpp
-D:\CSC College\CSC 210\Exercise-A-C++-program-to-arrange-'n'-oranges-by-ripeness - Copy\oranges-by-ripeness\oranges.cpp(1,10): fatal error C1083: Cannot open include file: 'oranges.h': No such file or directory
-  Generating Code...

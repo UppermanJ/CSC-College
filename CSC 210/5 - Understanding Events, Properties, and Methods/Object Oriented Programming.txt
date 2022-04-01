@@ -1,0 +1,42 @@
+Object Oriented Programming
+ - enables programming in ways that mirror or rack or are analogous to real world phenomena
+
+CAR:
+ - engine
+ - transmission
+ - wheel
+ - brakes
+ - gas pedal
+ - chassis
+ - headlights
+ - doors
+ - wipers
+ - air bags
+
+program organized as individual methods called objects
+
+Each object has particular methods and properties
+
+a method is a functions associated with an object
+
+methods are triggered by events 
+
+a method is called only when there is an EVENT
+
+EVENTS can be user generated or system generated
+
+Properties are variables associated with an object (int, floats, chr, string, struct)
+
+engine (system) activities:
+ - burns gas
+ - push cylinders
+ - axle rotates
+ - gives off exhaust
+
+
+#include <iostream>
+
+int main(){
+
+}
+
