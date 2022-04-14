@@ -1,0 +1,20 @@
+Customer Name  Customer ID   Yearly Income   Consulting Time   Amount Due   Low Income  Agent Name    Agent Rate
+
+V. James       22342         $    35000.00                30   $     0.00            N     Bortles    $ 55.00
+
+S. Slade       89            $   250000.00               120   $      nan            N     Bortles    $ nan
+
+Z. Taylor      71            $    25000.01                90   $      nan            N     Bortles    $ nan
+
+[ERROR] - INSUFFICIENT FUNDS LISTED IN THE BILLING FOR CUSTOMER: R. Remini
+
+R. Remini      3445          $        0.00                20   $     0.00            Y     Bortles    $ 55.00
+
+I. Tea         890           $   100000.00                60   $      nan            N     Bortles    $ nan
+
+T. Thomas      760           $    32000.00                45   $      nan            N     Bortles    $ nan
+
+O. Know        509           $    50000.00                35   $      nan            N     Bortles    $ nan
+
+A. Ha          324           $    25000.00                19   $     0.00            Y     Bortles    $ 55.00
+

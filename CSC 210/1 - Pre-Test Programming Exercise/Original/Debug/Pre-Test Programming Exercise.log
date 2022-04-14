@@ -1,0 +1,5 @@
+﻿  Main.cpp
+  preTestExercise.cpp
+D:\CSC College\CSC 210\Pre-Test Programming Exercise\Original\preTestExercise.cpp(33,10): warning C4101: 'choice': unreferenced local variable
+  Generating Code...
+  Pre-Test Programming Exercise.vcxproj -> D:\CSC College\CSC 210\Pre-Test Programming Exercise\Original\Debug\Pre-Test Programming Exercise.exe

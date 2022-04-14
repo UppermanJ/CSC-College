@@ -1,0 +1,57 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+
+}
+
+3.  Create a program using the following requirements: 
+
+    a.  Request a 7-character telephone number from the user using an informational prompt
+        and translate the characters into a 7-digit telephone number. 
+        
+        The user will not enter the dash, the program will format the telephone number properly.  
+        For example, aaadddd would translate to 222-3333.
+        
+        Do not code anything for 0 or 1.  This is simply to exercise knowledge of the different while
+        loops, switches and nested loops.
+        
+    b.  Ensure the solution is not case sensitive, i.e., the user may enter AAAADDDD or
+        aaadddd.
+        
+    c.  Include an outer DO-WHILE loop that asks the user if they would like to continue
+        entering telephone numbers.  If the user enters y or Y, continue.  Any other entry
+        will exit the program.
+
+    d.  Include an inner/nested WHILE loop that processes the entered characters until the
+        entered characters are translated into the proper telephone number.
+
+    e.  Use a SWITCH statement to translate characters to numbers. If the user enters something
+        other than A-Z or a-z, display an error message and exit the WHILE loop, continuing
+        with asking the user if they would like to continue.
+
+    f.  Output/display to the console the translated telephone number.
+
+If you like to include the following line of code:  system("pause");
+You MAY need to:  #include <cstdlib>
+
+Complete as much as you can before you submit ensuring what you've completed compiles.  You do not have to correctly
+solve the coding exercise, however, you MUST include code that ATTEMPTS to solve the problem to get credit.
+
+The program may be named any name of your choice and must have a .cpp extention.  Do NOT include
+spaces in program names; variables may be any name of your choice.
+
+You DO NOT have to comment these programs, however, please include your NAME as a comment in ALL code files.
+
+SUBMIT the code file only (*.cpp). 
+
+The program MUST compile and run and to get credit. 
+
+You MAY zip the files and submit the zipped files.
+
+MUST be submitted before end of class unless otherwise stated.
+
+Questions will be entertained; solution may be discussed in class. This is a collaborative effort to provide examples
+and practice for your understanding.

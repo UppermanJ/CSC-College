@@ -1,0 +1,30 @@
+1.a.  (-1.5)
+1.b.  (-1.5) incomplete
+
+2.a.  Correct
+2.b.  Correct
+
+3.a.  Correct
+3.b.  (-4) revised this so the avg is calculated in the same void function as the rest of the calculations
+3.c.  Correct
+3.d.  Correct
+3.e.  Correct
+3.f.  Correct
+
+4.    (-6) total is the only one that changes due to the scope
+	 in which it is declared being outside of the for loop,
+	 whereas the for loop’s scope contains that definition
+	 of loopcount, while another loopcount, declared to 0,
+	 remains in the outer scope. Thus, Loopcount == 0 and total == 10.
+
+5.    Correct. No assumption about the indentation is necessary...
+      look for braces to see which 'block' of code goes
+      with a looping construct.  Review Chapters 6 and 7 Powerpoints
+      for the rules.
+
+6.    Correct
+
+-13
+87
+
+

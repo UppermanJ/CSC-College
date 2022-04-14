@@ -1,0 +1,8 @@
+Students with test scores below the average test score of 94.36
+
+Brian Cranston CSC 210 89.90
+Emily Bronte ENG 220 78.20
+
+Students having a test score equal to the highest test score of 104.00
+Carl Jung PSYC 300 104.00
+Thurgood Marshall HIS 310 104.00

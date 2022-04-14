@@ -1,0 +1,101 @@
+This lab will exercise your understanding of some of the 
+concepts covered in Chapter 12:  classes
+
+READ THE FOLLOWING CAREFULLY TO GET FULL VALUE FROM THE PRACTICE.  IF NOT COMFORTABLE WITH CLASSES,
+I WOULD START WITH DEFINING THE CLASS WITH ONE constructor AND GO FROM THERE
+
+Use the following to calculate a GPA (the following is for calculation information only):
+
+A  = 4.00 grade points per credit hour
+A- = 3.70 grade points  per credit hour
+B+ = 3.33 grade points  per credit hour
+B  = 3.00 grade points per credit hour
+B- = 2.70 grade points per credit hour
+C+ = 2.30 grade points per credit hour
+C  = 2.00 grade points per credit hour
+C- = 1.70 grade points per credit hour
+D+ = 1.30 grade points per credit hour
+D  = 1.00 grade points per credit hour
+D- = 0.70 grade points per credit hour
+
+gpa calculation = total grade points received (see above)/ number hours attempted
+  If you took 3 classes; 3 credit hours each; received an 'A' in each class
+  A = 4.00 points per credit hour means a total of 36 grade points earned
+  for 9 attempted hours
+  gpa = 36/9 = 4.0
+
+
+1. Create a header file (*.h) for a class named Student defined as follows:
+   
+   Private variables to hold:
+     first name
+     last name
+     street address
+     city
+     state
+     zip
+     earned grade points
+     attempted credit hours
+     gpa
+     
+   Public methods:
+   
+     constructor of type Student; set all the private variables to space
+       or zero, depending on the data type
+       
+     constructor of type Student; set all name values and all address values
+       to values passed in as parameters, do not include earned grade point or 
+       attempted credit hours as parameters
+     
+     constructor of type Student; set ALL private variables to values
+       passed in as parameters *********************************************************
+       ******************************************************************************************************************
+     method to display all private variables of the class (i.e., cout)
+     
+     method to calculate the gpa (no parameters)
+     
+     method to calculate the gpa with earned and attempted values passed in as parameters
+     *****************************************************************************
+     method to set the earned value; earned value passed in as parameter
+                                  
+     method to set the attempted value; attempted value passed in as parameter
+
+2.  Create an implementation program (*.cpp file) for class Student and code all the public methods.
+
+      
+3.  Create a client program (*.cpp) that uses class Student.  Create three students using each of
+    the three constructors defined in 1.  Be aware of what data gets initialized or set to values. 
+
+4.  Calculate the gpa for each of the students.
+**********************************************************************************************
+5.  Display ALL the data for each of the students after the gpa has been calculated (name, full address,
+    grade points earned, grade points attempted, gpa)
+
+6.  Be aware that if the first two constructors are used, the earned and attempted 
+    values will NOT be set to calculate the gpa.  Try using your set methods
+    to give these a value.
+    
+You will need to create a project.     
+             
+    
+If you like to include the following line of code:  system("pause");
+You MAY need to:  #include <cstdlib>
+
+Complete as much as you can before you submit ensuring what you've completed compiles.  You do not have to correctly
+solve the coding exercise, however, you MUST include code that ATTEMPTS to solve the problem to get credit.
+
+The program may be named any name of your choice and must have a .cpp extention.  Do NOT include
+spaces in program names; variables may be any name of your choice.
+
+You DO NOT have to comment these programs, however, please include your NAME as a comment in ALL code files.
+
+SUBMIT the code files (*.cpp, *.h) and *.dev (project) file. 
+
+The program MUST compile and run and to get credit. 
+
+You MAY zip the files and submit the zipped files.
+
+MUST be submitted before end of class unless otherwise stated.
+
+Questions will be entertained; solution may be discussed in class. This is a collaborative effort to provide examples
+and practice for your understanding.
