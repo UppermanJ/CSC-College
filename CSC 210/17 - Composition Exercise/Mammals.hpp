@@ -1,9 +1,13 @@
-#ifndef MAMMAL_HPP
-#define MAMMAL_HPP
-#include "Libraries.hpp";
+#ifndef MAMMALS_HPP
+#define MAMMALS_HPP
+#include <iostream>
+#include <string>
+#include <cmath>
+#include <ctime>
+
 using namespace std;
 
-class Mammal
+class Mammals
 {
 private:
     double weight;
@@ -14,5 +18,6 @@ public:
     // pure virtual function
     virtual void makeSound() = 0;
 };
+
 
 #endif
