@@ -10,7 +10,7 @@ using namespace std;
 
 
 int someOpeningsBetterHappen(ifstream&, ofstream&, string&, string&, string&, int&);
-void readFile(ifstream&, int&, int&);
+void readFile(istream&, int&, int&);
 float averageOutTheData(int&, int&);
 void closeFiles(ifstream&, ofstream&);
 
@@ -36,6 +36,7 @@ int main () {
     }
 
     readFile(fromFile, numValues, total);
+    readFile(cin, numValues, total);
     averageOutTheData(numValues, total);
 
     cout << "You entered " << numValues << " numbers totaling "  <<  total << " with a average of " << averageOutTheData << endl;
@@ -78,7 +79,7 @@ int someOpeningsBetterHappen(ifstream& inData, ofstream& outData, string& ifileN
     }
 }
 
-void readFile(ifstream& inData, int& numValues, int& total)
+void readFile(istream& inData, int& numValues, int& total)
 {
     int num;
     inData >> numValues;
