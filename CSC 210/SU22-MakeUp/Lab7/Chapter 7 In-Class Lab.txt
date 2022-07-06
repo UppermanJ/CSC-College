@@ -1,0 +1,36 @@
+This lab will exercise your understanding of some of the concepts covered in Chapter 7:  
+  strings, enumerated types
+
+Create a program that:
+
+1.  Prompts the user to enter a string.
+
+2.  Use ANY method you'd like to remove all the vowels from the string (string function substring,
+    accessing the string characters as arrays, etc.), creating a new string.
+
+3.  Output the new string with all the vowels removed.
+
+4.  The program MUST contain two functions--
+
+    (1) to remove all the vowels from the string, i.e., create a new string from the old string; 
+    
+    (2) to determine if a character is a vowel.
+    
+5.  Use an enumerated type to evaluate each character to determine if it is a vowel.  Hint:  Write the program
+    WITHOUT the enumerated type first to get it working.
+    
+    
+Complete as much as you can before you leave ensuring what you've completed compiles.  These labs are 
+entirely for your practice.
+
+The program may be named any name of our choice, must have a .cpp extention; variables may be any name of 
+your choice.
+
+You DO NOT have to comment these programs, however, please include your NAME as a comment in ALL code files.
+
+SUBMIT the code (*.cpp). The program MUST compile and run to get credit.
+
+You MAY zip the files and submit the zipped files.
+
+Questions will be entertained; solution will be discussed in class. This is a collaborative effort to provide examples
+and practice for your understanding.

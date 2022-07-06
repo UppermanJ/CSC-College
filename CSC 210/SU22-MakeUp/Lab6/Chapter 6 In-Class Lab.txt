@@ -1,0 +1,67 @@
+This lab will exercise your understanding of some of the concepts covered in Chapter 6:  
+  functions, pass parameters by reference, pass parameters by value and function overloading
+
+Create a program that:
+
+1.  Has two functions, both functions have the same name -- increase.
+ 
+2.  One function returns an integer and has an integer as a parameter. This function will double the value of the
+    integer parameter and return the doubled value.  This function will also contain a static integer to be used
+    as a counter.
+
+3.  One function returns no value (void) and has two integer parameters passed by reference.  This function will triple the 
+    value of the first integer parameter and will increment the value of the second parameter (used as a counter).  The
+    function will return BOTH values through the reference parameters.
+
+4.  Basic functionality:
+
+    a.  Request an integer from the user, the request should include the message "Enter -1 to quit"
+    
+    b.  Loop until the user enters -1
+      
+    c.  Function 1:  If the user enters an ODD value, call increase (one integer parameter passed by value, returns
+        an integer) passing the integer by value; 
+        
+        Double the integer and RETURN the value from the function.  
+        
+        Upon return from the function, output the value RETURNED.
+        
+        This should have a static int that counts the number of times the function is called.
+        
+    d.  Function2:  If the user enters an EVEN value, call increase (two integer parameters passed by reference, returns
+        no value):
+        
+        triple the first integer value.  
+        
+        Increment the counter integer.  
+        
+        Return the updated values via the reference parameters.  
+        
+        Upon return from the function, output the value that was tripled.
+        
+    e.  BOTH FUNCTIONS:  When EACH function is called, increment the appropriate counter variable IN THE FUNCTION 
+        (static or reference).  
+        
+        Also output a statement: "This function has been called x times", where x is the number of times THAT function has been called. 
+        Do not display x, display the value of the appropriate counter variable.
+     
+        Place this output statement where most appropriate for the variable type declared for the counter.
+ 
+5.  Test the functions/program with several even and odd inputs.  Test when -1 entered at the beginning.
+
+6.  Write the function PROTOTYPEs prior to main; define/write the function code after main.
+
+Complete as much as you can before you leave ensuring what you've completed compiles.  These labs are 
+entirely for your practice.
+
+The program may be named any name of our choice, must have a .cpp extention; variables may be any name 
+of your choice.
+
+You DO NOT have to comment these programs, however, please include your NAME as a comment in ALL code files.
+
+SUBMIT the code file only (*.cpp). The program MUST compile and run to get credit.
+
+You MAY zip the files and submit the zipped files.
+
+Questions will be entertained; solution will be discussed in class. This is a collaborative effort to provide examples
+and practice for your understanding.

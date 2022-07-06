@@ -1,0 +1,84 @@
+Programming Assignment 1
+
+Functions, arrays of structures, arrays, file input, file output, console output, output formatting, 
+header file
+
+Program description:
+1. Using a function, read student exam data from testdata.txt (provided) and compute the 
+score and letter grade.  Call the function from main.  Declare the prototype in the header 
+file.  Code the function header and body after main.
+The input file contains the grade key as the first row of data consisting of true and false 
+answers, i.e., T and F:
+TTFTFTTTFTFTFFTTFTTF
+The remaining data in the file contains a student’s first name, last name and answer to 
+the test.  For example the second row of the file contains:
+Trent Watt T FTFTFTTTFTTFTTF TF
+Read the first row into a variable, type of your choice, as the key to the correct answers.  
+Output the key data to the console (cout).
+Read the remaining file data and compute the score by comparing the student answers 
+to the grade key.  Each correct answer is 5 points.  A space in the student answer set 
+indicates the student did not answer the question.  Read until end of file.
+2. Create a structure to contain the information for each student:
+First Name
+Last Name
+Test Answers
+Numerical Score
+Letter Grade
+3. Declare the structure in the header file.
+4. Declare an array variable of the structure in main as size 30.
+5. Using a function, open the input file (testdata.txt) and an output file. Request the names 
+of both files from the user.  The output file may be a name of your choice.  Call the 
+function from main.  Declare the prototype in the header file.  Code the function header 
+and body after main.
+Check the status of the file open functions.  If the file does not open, display a message 
+and exit the program.
+6. Using a function, read and store the test data (except first row) into the structure array.  
+Read until end of file.  Use a counter to count and track how many rows.  Pass the 
+counter into the function to output a report of grades (do not use a global variable).   
+Declare the prototype in the header file.  Code the function header and body after main.
+7. Calculate the score for each student while reading the data by comparing the student 
+answers to the grade key and then store the score in the structure. 
+The test has 20 questions.  Each correct answer is awarded five (5) points, each wrong 
+answer or unanswered question gets zero (0) points. 
+8. Using a function, look up the letter grade based on the score.  Store the letter grade in 
+the structure.  Call the function from the read function.  Declare the prototype in the 
+header file.  Code the function header and body after main.
+Assume the following grade scale: 
+A:  90%-100% 
+B: 80%-89.99%
+C: 70%-79.99%
+D: 60%-69.99%
+F: 0-59:99%
+9. Using a function, output the student data to the console (cout) and to an output data 
+file including the following information:
+                        <A title of your choosing>
+    Name           Score       Letter Grade   Student Answers
+Ensure each line of data is neat and readable.  All score values must have two decimal 
+places.  Use manipulators such as setw, right and left to aid in neatess and readability..
+Call the function from main.  Declare the prototype in the header file.  Code the function 
+header and body after main.
+10. Using a function, close all files prior to program end.  Call the function from main.  
+Declare the prototype in the header file.  Code the function header and body after main.
+11. Include basic comments and each function must have required documentation (pre and 
+post conditions).
+Basic Comments:
+Program Name:  (name of program file)
+Author:  (your name)
+Brief explanation of program purpose
+Pre/Post conditions:
+//Precondition:  what must be true about any parameters prior to function call.  There may be 
+no preconditions
+//Postconditions:  what is true after function is complete
+See pre/post condition comment example in provided example program Documentation.cpp 
+in Programming Assignment 1 link.
+Test and evaluate calculations for accuracy.  Points will be taken for inaccurate 
+calculations, improper formatting, directions not followed.
+Turn in file code *.cpp; README file; header file *.h , input file and output file.  You DO NOT 
+need to submit the executable (*.exe).  You MAY zip all the files and submit if you choose.  You 
+MUST include all the files indicated or points will be deducted.
+README must contain instructions for location of input/output files.  See example contents in 
+provided document readme.txt in Programming Assignment 1 link.
+Points WILL BE taken if MINIMUM requirements and submissions not included.
+1 point extra credit will be awarded if assignment is zipped for submission
+Each solution is to be uniquely your own; minimal student collaboration allowed.
+See Canvas and Syllabus for due date
