@@ -1,0 +1,143 @@
+string findStringInString(string arrOfChar, string findThis){
+
+       int thisLen = findThis.length(), arrLen = arrOfChar.length();
+
+       for(int i = 0; i < (arrLen-thisLen); i++){
+
+              string recoveredString = arrOfChar.substr(i, thisLen);
+
+              if(recoveredString.compare(findThis)==0){
+
+              return recoveredString;
+
+              }
+
+        }
+
+        return "not found";
+
+}
+
+int findIntegerInArray(int arr[], int num){
+
+          for(int i = 0; i < arr.sizeof()/arr.sizeof(0); i++){
+
+          if(num == arr[i]){return arr[i];}
+
+          return -1;
+
+}
+
+--------------------------------------------------------------------------------f
+
+#include <iostream>
+
+using namespace std;
+
+ 
+
+void test(int &, int);
+
+int z = 0;
+
+ 
+
+int main()
+
+{
+
+    int count, a, b;
+
+    z = 12;
+
+    a = 3;
+
+    b = 2;
+
+    for (count = 1; count <= 2; count++)
+
+        test(a, b);
+
+    cout << “In main a = “ << a << “ b = “ << b << “ z = “ << z << endl;
+
+    return 0;
+
+}
+
+void test(int& y, int c)
+
+{
+
+    static int x = 0;
+
+    y = 10;
+
+    z = z + 1;
+
+    x = x + 2;
+
+    y = y + 1;
+
+    c = c + 1;
+
+}
+
+ --------------------------------------------------------------------------------
+
+The following requires you to write the program in a text editor (notepad, pages, etc.) or word and upload the document.  Do not use a compiler/IDE.
+
+This will require manual grading.
+
+ 
+
+Assume you have the following structure definitions:
+
+struct nameType {
+
+  string first;
+
+  string last;
+
+};
+
+ 
+
+struct studentType {
+
+  nameType name;
+
+  double gpa;
+
+};
+
+Write a program that declares an array of the studentType structure, size 10, name of your choice, and includes the following: (5)
+
+Write a void function to request user input into each of the members of the studentType structure array. Be sure to include proper user prompts. Assume the entire structure array is filled.  Write the prototype and the function definition. (10)
+Call the function from main. (5)
+Write a void function to output the information in the studentType structure array. Write the prototype and the function definition. (10)
+Call the function from main. (5)
+This is to be a small program, so #INCLUDE and USING statements must be written
+
+--------------------------------------------------------------------------------
+
+This question will require manual grading.
+
+Consider the following enumerated data type.
+
+Declare a variable.  (2)
+
+Write a for loop to properly iterate through the entire ordered list to display all associated values, i.e., ALGEBRA would result in:  cout << “ALGEBRA” << endl;
+
+Use only enumerated methodologies to iterate, not an explicit count control loop (aka count < 8)  (8)
+
+Note:  If other than enumerated methodologies used, this question may receive a zero (0).
+
+ 
+
+  enum courseType {ALGEBRA, BEGINNING_SPANISH, ASTRONOMY, GENERAL_CHEMISTRY, PHYSICS, LOGIC};
+
+
+--------------------------------------------------------------------------------
+I received no outside help, I did not use a compiler, I did not use the internet to search for solutions.
+
+You must answer this question, truthfully, to be awarded credit for the exam. - True

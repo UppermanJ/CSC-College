@@ -1,0 +1,4 @@
+﻿  Numerals.cpp
+C:\Users\Josiah\Desktop\Coding\C ++\Clone for CSC 210\CSC-College-1\CSC 210\SU22-MakeUp\Lab10\include\Numerals.cpp(43,81): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  main.cpp
+C:\Users\Josiah\Desktop\Coding\C ++\Clone for CSC 210\CSC-College-1\CSC 210\SU22-MakeUp\Lab10\src\main.cpp(1,10): fatal error C1083: Cannot open include file: 'Numerals.hpp': No such file or directory

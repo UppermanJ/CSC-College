@@ -1,0 +1,213 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Josiah/Desktop/Coding/C ++/Clone for CSC 210/CSC-College-1/CSC 210/SU22-MakeUp/Lab10/include/Numerals.cpp"
+                },
+                "region": {
+                  "startLine": 51,
+                  "startColumn": 41,
+                  "endLine": 51,
+                  "endColumn": 45
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Numerals::convertToArabic",
+                  "decoratedName": "?convertToArabic@Numerals@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Josiah/Desktop/Coding/C ++/Clone for CSC 210/CSC-College-1/CSC 210/SU22-MakeUp/Lab10/include/Numerals.cpp"
+                },
+                "region": {
+                  "startLine": 56,
+                  "startColumn": 46,
+                  "endLine": 56,
+                  "endColumn": 50
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Numerals::convertToArabic",
+                  "decoratedName": "?convertToArabic@Numerals@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Josiah/Desktop/Coding/C ++/Clone for CSC 210/CSC-College-1/CSC 210/SU22-MakeUp/Lab10/include/Numerals.cpp"
+                },
+                "region": {
+                  "startLine": 79,
+                  "startColumn": 41,
+                  "endLine": 79,
+                  "endColumn": 45
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Numerals::convertToArabic",
+                  "decoratedName": "?convertToArabic@Numerals@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Josiah/Desktop/Coding/C ++/Clone for CSC 210/CSC-College-1/CSC 210/SU22-MakeUp/Lab10/include/Numerals.cpp"
+                },
+                "region": {
+                  "startLine": 84,
+                  "startColumn": 46,
+                  "endLine": 84,
+                  "endColumn": 50
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Numerals::convertToArabic",
+                  "decoratedName": "?convertToArabic@Numerals@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Josiah/Desktop/Coding/C ++/Clone for CSC 210/CSC-College-1/CSC 210/SU22-MakeUp/Lab10/include/Numerals.cpp"
+                },
+                "region": {
+                  "startLine": 107,
+                  "startColumn": 41,
+                  "endLine": 107,
+                  "endColumn": 45
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Numerals::convertToArabic",
+                  "decoratedName": "?convertToArabic@Numerals@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Josiah/Desktop/Coding/C ++/Clone for CSC 210/CSC-College-1/CSC 210/SU22-MakeUp/Lab10/include/Numerals.cpp"
+                },
+                "region": {
+                  "startLine": 112,
+                  "startColumn": 46,
+                  "endLine": 112,
+                  "endColumn": 50
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Numerals::convertToArabic",
+                  "decoratedName": "?convertToArabic@Numerals@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.32.31332.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/Josiah/Desktop/Coding/C ++/Clone for CSC 210/CSC-College-1/CSC 210/SU22-MakeUp/Lab10/include/Numerals.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "c19f038dc351861df1c17099d84ff5178ced7e0dacaed49f73d05830913096b1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/josiah/desktop/coding/c ++/clone for csc 210/csc-college-1/csc 210/su22-makeup/lab10/include/numerals.hpp"
+          },
+          "hashes": {
+            "sha-256": "89fbba0993dae9d89b1709aaed467d22a17b8ba7b952e0482e9db2a59b9a7434"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+This lab will exercise your understanding of some of the concepts covered 
+in Chapter 10:
+classes, default constructors, overloaded constructors, arrays of 
+classes
+A Roman numeral represents an integer using letters. Examples are XVII to 
+represent 17,
+MCMLIII for 1953, and MMMCCCIII for 3303. By contrast, ordinary numbers 
+such as 17 or 1953
+are called Arabic numerals. The following table shows the Arabic 
+equivalent of all
+the single-letter Roman numerals:
+M    1000            X   10
+D     500            V    5
+C     100            I    1
+L      50
+When letters are strung together, the values of the letters are just 
+added,
+with the following exception. When a letter of smaller value is followed 
+by
+a letter of larger value, the smaller value is subtracted from the larger 
+value.
+For example, IV represents 5 - 1, or 4.
+MCMXCV is interpreted as M + CM + XC + V, or 1000 + (1000 - 100) + (100 - 
+10) + 5,
+which is 1995. In standard Roman numerals, no more than thee consecutive 
+copies of
+the same letter are used. Following these rules, every number between 1 
+and 3999
+can be represented as a Roman numeral made up of the following one- and 
+two-letter combinations:
+M    1000            X   10 d
+CM    900  d          IX   9 d 
+D     500            V    5 d
+CD    400  d          IV   4 d
+C     100  d          I    1 d
+XC     90  d
+L      50  d
+XL     40  d
+1. Write a class to represent Roman numerals.
+a. The class should have two constructors.:
+(1) A default constructor
+(2) A constructor that takes a string as a paramter (i.e., string 
+representing a roman numeral)
+
+b. This class should have the following member functions, in addition 
+to the above constructors:
+(1)  set - sets the member variable to the values in the function 
+parameter
+(2)  print - print the converted integer value
+(3)  convert the roman number string to a positive integer
+(4)  print the roman number string
+
+c. This class should have two PRIVATE member variables:
+(1) string to hold the roman numeral string //
+(2) integer to hold the converted value
+3.  Create:
+a. a class definition file (*.h)
+b. a class implementation file (*.cpp)
+c. a client program to test your class (*.cpp)
+d. a project for these code files
+4.  The client program should:
+
+a. create a roman numeral object using the default constructor
+b. convert the roman number to the integer equivalent
+c. output (cout) the roman number entered and the equivalent integer 
+value
+
+d. create a roman numeral object using the overloaded constructor
+e. convert the roman number to the integer equivalent
+f. output (cout) the roman number entered and the equivalent integer 
+value
+
+g. create an array of the roman class of size 3
+h. read, from the console, three roman numerals into the array, in a 
+loop
+i. convert each array component into the equivalent integer value, in 
+a separate loop
+j. output (cout) the roman number entered and the equivalent integer 
+value for each component of the array.
+May be in the conversion loop.
+
+For this program, enter only valid roman numerals that convert to integers 
+less than or equal to 3999
+Test with the values MCXIV, CCCLIX, MDCLXVI
+Complete as much as you can before you leave ensuring what you've 
+completed compiles.  These labs are
+entirely for your practice.
+The program may be named any name of our choice, must have a .cpp 
+extention; variables may be any name of
+your choice.
+You DO NOT have to comment these programs, however, please include your 
+NAME as a comment in ALL code files.
+SUBMIT the code (*.cpp, *.h) and your project file (for Dev C++  is *.dev, 
+for codeblocks it is *.cbp).
+All files must be submitted and the program MUST compile and run to get 
+credit.  The project files do
+not contain the code files, so please submit all files.
+You MAY zip the files and submit the zipped files.
+Questions will be entertained; solution will be discussed in class. This 
+is a collaborative effort to provide examples
+and practice for your understanding.
+Further rules:
+In the Roman numeral system, the basic "digits" are the letters I, V, X, 
+L, C, D, and M
+which represent the same numbers regardless of their position.
+Symbols are placed in order of value, starting with the largest values.
+Do not repeat I, X, and C more than three times in a row. (Number 4 on a 
+Roman numeral clock is usually written as IIII. )
+Symbols V, L, and D cannot appear more than once consecutively.
+Do not subtract a number from one that is more than 10 times greater: I 
+may only precede V and X, X may only
+precede L and C, and C may only precede D and M.

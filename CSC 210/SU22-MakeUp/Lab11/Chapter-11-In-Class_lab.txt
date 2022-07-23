@@ -1,0 +1,44 @@
+This lab will exercise your understanding of some of the concepts covered in Chapter 11:  
+  classes, inheritance
+  
+  
+1. Design the class  patientType, inherited from class  persontype, with
+   additional data members to store a patient's ID, age, date of birth,
+   the date the patient was admitted in the hospital, and the date the patient was discharged.
+   The data members must be private.
+   
+2. Add appropriate constructors and member functions to initialize, access and
+   manipulate data members.  
+
+3. Code a test program that creates a new patient.  Test the classes as follows:
+   
+   Create a patientType object.
+   
+   Request the patient ID, First Name, Last Name
+   
+   Set the values in the object appropriately
+   
+   The date of birth, admission date and discharge dates may be set using hard-coded values or requested.  
+   Set these values for the patientType object
+   
+   Print the patientType object information: 
+   
+      First Name, Last Name, Admission Date, Discharge Date,
+        Date of birth
+   
+Complete as much as you can before you leave ensuring what you've completed compiles.  These labs are 
+entirely for your practice.
+
+The program may be named any name of our choice and must have a .cpp extention; variables may be any name 
+of your choice.
+
+You DO NOT have to comment these programs, however, please include your NAME as a comment in ALL code files.
+
+SUBMIT the code (*.cpp, *.h) and your project file (for Dev C++  is *.dev, for codeblocks it is *.cbp). 
+All files must be submitted and the program MUST compile and run to get credit.  The project files do
+not contain the code files, so please submit all files.
+
+You MAY zip the files and submit the zipped files.
+
+Questions will be entertained; solution will be discussed in class. This is a collaborative effort to provide examples
+and practice for your understanding.  
