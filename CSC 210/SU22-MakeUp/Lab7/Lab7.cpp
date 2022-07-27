@@ -1,4 +1,8 @@
-// typedef, string, enum
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+// * Josiah Upperman * CSC 210 * July 27 * Chapter 7 In Class Lab* * * * * * * * * * * * * *
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+// * Pamella Smith * * Jun 30* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 #include <iostream>
 #include <string>
 #include <cstdlib>
@@ -6,58 +10,71 @@
 using namespace std;
 
 bool isaVowel(char);
-string removeVowels(string);
+string extractVowels(string&);
+void useProgramQuery();
 
+// precondition: the user has run the program at least once
+// postcondition: the user has asked the program to process as many strings as they desired
 int main()
 {
-    string aString, newString;
-
-    cout << "Please input a string" << endl;
-    getline(cin, aString);
-    newString = removeVowels(aString);
-    cout << "New string, vowels removed -- " << newString << endl;
-
+    useProgramQuery();
     system("pause");
+    return 0;
 }
 
-string removeVowels(string inString)
+// precondition: the user has run the program at least once
+// postcondition: the user has chosen the course of action they seek
+void useProgramQuery()
+{
+    cout << "Would you like to use this program to have a string deconstructed into consonants and vowels? (y/n): ";
+    char answer; cin >> answer;
+    if (toupper(answer) == 'Y')
+    {
+        string getString, newString;
+
+        cout << "Please input a string: ";
+        getline(cin, getString);
+        newString = extractVowels(getString);
+        cout << "New string: " << newString << " Vowels removed: " << getString << endl;
+        system("pause");
+        useProgramQuery();
+    }
+    else
+    {
+        system("cls");
+        cout << "Logging off..." << endl;
+        system("pause");
+    }
+
+}
+
+// precondition: the user has entered a string
+// postcondition: the consonants and the vowels have been returned as strings
+string extractVowels(string &inString)
 {
 
-    string outString;
-    int j = 0;
+    string outString, vowels;
+    int j = 0, i = 0;
 
-    for (int i = 0; i < inString.length(); i++)
+    while (i < inString.length())
     {
         if (isaVowel(inString[i]) == false)
         {
             outString = outString + inString[i];
+        }else{
+            vowels = vowels + inString[i];
         }
+        i++;
     }
+    inString = vowels;
     return outString;
 }
-// bool isaVowel(char inChar){
-//
-//   bool ret;
-//
-//   switch(toupper((char)inChar)) {
-//     case 'A':
-//     case 'E':
-//     case 'I':
-//     case 'O':
-//     case 'U':
-//       ret = true;
-//       break;
-//     default:
-//       ret = false;
-//       break;
-//     }
-//
-//   return ret;
-// }
-bool isaVowel(char inChar)
+
+// precondition: the user has entered a string that can be processed in terms of characters
+// postcondition: the program has informed the calling function of whether or not the character is a vowel
+bool isaVowel(char isVowelChar)
 {
-    //  enum Letters {A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z};
-    enum Letters
+    enum Vowels
     {
         A = 65,
         E = 69,
@@ -65,25 +82,24 @@ bool isaVowel(char inChar)
         O = 79,
         U = 85
     };
-    bool ret;
+    bool isItAVowel;
 
-    Letters aLetter;
+    Vowels holdTheInputChar;
 
-    //  aLetter = Letters(toupper(inChar) - 65);
-    aLetter = Letters(toupper(inChar));
-    switch (aLetter)
+    holdTheInputChar = Vowels(toupper(isVowelChar));
+    switch (holdTheInputChar)
     {
     case A:
     case E:
     case I:
     case O:
     case U:
-        ret = true;
+        isItAVowel = true;
         break;
     default:
-        ret = false;
+        isItAVowel = false;
         break;
     }
 
-    return ret;
+    return isItAVowel;
 }

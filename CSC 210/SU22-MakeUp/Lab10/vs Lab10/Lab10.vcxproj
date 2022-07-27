@@ -135,6 +135,7 @@
     <ClCompile Include="..\..\C ++\Clone for CSC 210\CSC-College-1\CSC 210\SU22-MakeUp\Lab10\src\main.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Numerals.hpp</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Users\Josiah\Desktop\Coding\C ++\Clone for CSC 210\CSC-College-1\CSC 210\SU22-MakeUp\Lab10\include</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
