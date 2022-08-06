@@ -1,0 +1,44 @@
+This lab will exercise your understanding of some of the concepts covered in Chapter 12:  
+  pointers
+  
+Part I
+
+1. Define int variables x and y and int* pointer variables p and q.  
+
+   Assign x the value 2, y the value 8, set p to contain the address of x, and q to contain the address of y.
+   
+   Then output the following information, using appropriate messages:
+   
+   a. The address of x and the value of x.
+   
+   b. The value of p and the value of *p.
+   
+   c. The address of y and the value of y.
+   
+   d. The value of q and the value of *q.
+   
+   e. The address of p (not its contents!).
+   
+   f. The address of q (not its contents!).
+
+Part II
+
+2.  For the following, use the pointer notation ONLY. Do NOT use the array index [] notation.
+    Define the variables below and write code which prints the characters in a c string in a reverse order.
+     char s[10] = "abcde";
+     char* cptr;
+    
+Complete as much as you can before you leave ensuring what you've completed compiles.  These labs are 
+entirely for your practice.
+
+The program may be named any name of our choice, must have a .cpp extention; variables may be any name 
+of your choice.
+
+You DO NOT have to comment these programs, however, please include your NAME as a comment in ALL code files.
+
+SUBMIT the code (*.cpp). The program MUST compile and run to get credit.
+
+You MAY zip the files and submit the zipped files.
+
+Questions will be entertained; solution will be discussed in class. This is a collaborative effort to provide 
+examples and practice for your understanding.

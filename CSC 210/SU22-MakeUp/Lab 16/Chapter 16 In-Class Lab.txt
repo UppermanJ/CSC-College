@@ -1,0 +1,43 @@
+This lab will exercise your understanding of some of the concepts covered in Chapter 16:  
+  vector object, sequential search, sorting
+  
+1.  Create a program that uses the Sequential Search Algorithm to search a STRING VECTOR OBJECT.
+
+    You may begin with the Sequential search algorithm on slide 5 of the powerpoint lecture or implement 
+    in your own way.
+    
+a.  Write the sequential search function using a vector.  Modify the search to search a sorted list.
+    If the name is found, return the index of the name found. 
+
+b.  Create a vector object and request a list of names from the user, first names are adequate.  
+    Store the names in a string vector. Enter 8-10 names.
+    
+c.  Request a sentinel value to end the input sequence.
+
+d.  Sort the vector list using one of the sort algorithms provided by the text (also in the Chapter 16
+    powerpoint, slides 13 and 21, which can be copied/pasted)
+    
+e.  Request a search name from the user.  Remember, unless you account for case, the data will be case 
+    sensitive.
+
+f.  Call the sequential search function.
+
+g.  Upon return from the search, display an appropriate message indicating whether the name was 
+    or was not found.  If the name was found, output the index of the located name (you do not
+    have to adjust for the zero-based index)
+
+
+Complete as much as you can before you leave ensuring what you've completed compiles.  These labs are 
+entirely for your practice.
+
+The program may be named any name of our choice, must have a .cpp extention; variables may be any name of your
+choice.
+
+You DO NOT have to comment these programs, however, please include your NAME as a comment in ALL code files.
+
+SUBMIT the code (*.cpp). All files must be submitted and the program MUST compile and run to get credit.
+
+You MAY zip the files and submit the zipped files.
+
+Questions will be entertained; solution will be discussed in class. This is a collaborative effort to provide examples
+and practice for your understanding.

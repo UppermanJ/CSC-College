@@ -1,0 +1,34 @@
+This lab will exercise your understanding of some of the concepts covered in Chapter 13:  
+  templates
+  
+1.  Create a function (class) template prototype and definition named findLargest that has two parameters:
+
+    a.  an array of Type
+        
+    b.  int representing size of the array
+    
+    c.  a return value of Type
+    
+    d.  the template code should loop through the array, find the largest value and return the largest value
+    
+    e.  create and initialize two arrays, an integer array and a double array, size and values
+        of your choice
+    
+    f.  call the function template using each of the declared arrays and output the largest
+        value in each of the arrays
+        
+Complete as much as you can before you leave ensuring what you've completed compiles.  These labs are 
+entirely for your practice.
+
+The program may be named any name of our choice, must have a .cpp extention; variables may be any name of 
+your choice.
+
+You DO NOT have to comment these programs, however, please include your NAME as a comment in ALL code files.
+
+SUBMIT the code ( *.h and *.cpp) files and the project file (*.dev).   All files must be submitted and the 
+program MUST compile and run to receive credit.
+
+You MAY zip the files and submit the zipped files.
+
+Questions will be entertained; solution will be discussed in class. This is a collaborative effort to provide 
+examples and practice for your understanding.

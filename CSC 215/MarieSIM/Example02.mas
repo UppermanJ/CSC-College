@@ -1,0 +1,7 @@
+	Input		/ Get input from keyboard and load into AC
+	Add X		/ Add contents of X location to AC
+	Store Y		/ Store contents of AC to location Y
+  	Output		/ Output contents of AC to screen
+	Halt
+X,	HEX 20
+Y,	HEX 0000

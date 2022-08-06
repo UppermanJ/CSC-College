@@ -1,0 +1,24 @@
+     Assembly listing for: Example01.txt.mas
+                Assembled: Mon Sep 20 14:52:23 EDT 2021
+
+000 1005 |         LOAD X           / Load value at X into AC
+001 3006 |         ADD Y            / Add value at Y to AC
+002 2007 |         STORE Z          / Save contents of AC to Z memory location
+003 6000 |         OUTPUT           / Output contents of AC to screen
+004 7000 |         HALT              
+005 0006 |  X      HEX 0006         / Declare and initialize variables
+006 FFE9 |  Y      HEX FFE9          
+007 0000 |  Z      HEX 0000          
+
+Assembly successful.
+
+         SYMBOL TABLE
+         --------------------------------------------------
+          Symbol | Defined | References 
+         --------+---------+-------------------------------
+          X      |   005   | 000
+          Y      |   006   | 001
+          Z      |   007   | 002
+         --------------------------------------------------
+
+

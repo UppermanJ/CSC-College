@@ -1,0 +1,37 @@
+     Assembly listing for: Exercise03(Solution).mas
+                Assembled: Sun Sep 26 17:06:39 EDT 2021
+
+000 5000 |          INPUT              
+001 2010 |          STORE X           / cin >> X
+002 5000 |          INPUT              
+003 2011 |          STORE Y           / cin >> Y
+004 1010 |  Loop    LOAD X             
+005 4012 |          SUBT One           
+006 4011 |          SUBT Y             
+007 8000 |          SKIPCOND 000      /If AC<0 (X is less than 0), continue loop
+008 900F |          JUMP Endloop      /If X is not less than 0, terminate loop
+009 1010 |          LOAD X            /Begin body of loop
+00A 6000 |          OUTPUT             
+00B 1010 |          LOAD X             
+00C 3012 |          ADD One           /Add 1 to X
+00D 2010 |          STORE X           /Store new value in X
+00E 9004 |          JUMP Loop         /Continue loop
+00F 7000 |  Endloop HALT              /Terminate program
+010 0000 |  X       DEC 0             /Storage for X
+011 0000 |  Y       DEC 0              
+012 0001 |  One     DEC 1             /The constant value 1
+
+Assembly successful.
+
+         SYMBOL TABLE
+         ---------------------------------------------------
+          Symbol  | Defined | References 
+         ---------+---------+-------------------------------
+          Endloop |   00F   | 008
+          Loop    |   004   | 00E
+          One     |   012   | 005, 00C
+          X       |   010   | 001, 004, 009, 00B, 00D
+          Y       |   011   | 003, 006
+         ---------------------------------------------------
+
+

@@ -1,0 +1,8 @@
+	Load X		/ Load value at X into AC
+	Add Y		/ Add value at Y to AC
+	Store Z		/ Save contents of AC to Z memory location
+	Output		/ Output contents of AC to screen
+	Halt
+X,	HEX 0006	/ Declare and initialize variables
+Y,	HEX FFE9
+Z,	HEX 0000

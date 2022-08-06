@@ -1,0 +1,15 @@
+	Input		/ Input value from keyboard
+	Store Z		/ Store AC to location Z
+	Subt X		/ Subtract contents of location X from AC
+	Skipcond 0000	/ If contents of AC is <0 skip next command
+	Jump Out	/ Jump to Out label
+	Load Z		/ Load contents of Z location
+	Add Y		/ Add contents of Y location
+  	Output		/ Output contents of AC
+	Halt	
+Out,	Load Z		/ Load contents of Z location
+	Output		/ Output
+	Halt
+X,	HEX 61
+Y,	HEX 20
+Z,  	HEX 0000

@@ -1,0 +1,72 @@
+This lab will exercise your understanding of some of the concepts covered in Chapter 12:  
+  virtual functions (think about compile-time and run-time binding)
+  
+1.  We will be treating the PersonType object as a base class that may be inherited
+    by multiple objects.  We will treat the personType getAddress and setAddress as pure virtual
+    because we wish to have all inherited objects to code these functions but
+    do not need them in the base class.  Using the code for person type provided in 
+    program examples do the following:
+
+a.  Make the following function a pure virtual function:
+
+    print .  This function must remain const.
+    
+b.  Create the following functions as pure virtual functions:
+
+    getAddress
+    
+    setAddress
+    
+2.  For the purpose of this lab, we will create only one inherited Class:  StudentType.  Create the
+    class, inherited as public from Persontype with the following properties:
+    
+a.  Private data members:
+
+    major
+    
+    id
+    
+    gpa
+    
+    address (just one string address)
+    
+b.  Create the proper public functions to properly access and set private data members.  Create
+    a default constructor and an overloaded constructor to set ALL data member values.
+
+c.  Overload the proper functions to retrieve, set, and process data members of the base class
+
+d.  Create two studentType objects:  
+
+    One using the default constructor.  Set all private and inherited data members using functions.  
+    
+    One using the overloaded constructor, which sets all the private and inherited data members
+    
+e.  Print the following for the student objects:
+
+    First Name
+    
+    Last Name
+    
+    Major
+    
+    Id
+    
+    GPA
+    
+    Address
+    
+    
+
+Complete as much as you can before you leave ensuring what you've completed compiles.  These labs are 
+entirely for your practice.
+
+You DO NOT have to comment these programs, however, please include your NAME as a comment in ALL code files.
+
+SUBMIT the code ( *.h and *.cpp) files and the project file (*.dev or *.cbp).   All files must be submitted 
+and the program MUST compile and run to receive credit.  You must submit all files.  The project file does
+not contain the code files.
+
+You MAY zip the files and submit the zipped files.
+
+Questions will be entertained; solution will be discussed in class. This is a collaborative effort to provide 
+examples and practice for your understanding.

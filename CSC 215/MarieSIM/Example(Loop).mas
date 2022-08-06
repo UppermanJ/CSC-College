@@ -1,0 +1,10 @@
+/ What does it do?
+Loop,	Input
+	Store X
+	Add X
+	Store X
+	Output
+	Skipcond 400
+	Jump Loop
+	Halt
+X, 	HEX 0000

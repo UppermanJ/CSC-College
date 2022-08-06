@@ -1,0 +1,19 @@
+	Input
+	Store X		/ cin >> X
+	Input
+	Store Y		/ cin >> Y
+Loop, 	Load X
+	Subt One
+	Subt Y
+	SkipCond 000 	/If AC<0 (X is less than 0), continue loop
+	Jump Endloop 	/If X is not less than 0, terminate loop
+	Load X 		/Begin body of loop
+	Output
+	Load X 		
+	Add One 	/Add 1 to X
+	Store X 	/Store new value in X
+	Jump Loop 	/Continue loop
+Endloop, Halt 		/Terminate program
+X, 	Dec 0 		/Storage for X
+Y,	Dec 0
+One, 	Dec 1 		/The constant value 1
